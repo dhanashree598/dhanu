@@ -2,7 +2,7 @@ pipeline {
     agent {
         label {
             label "built-in"
-            customWorkspace "/mnt/clone"
+            customWorkspace "/mnt/clone-1"
         }
     }    
 
