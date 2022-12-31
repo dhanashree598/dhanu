@@ -2,7 +2,7 @@ pipeline {
     agent {
         label {
             label "built-in"
-            customWorkspace "/mnt/velocity"
+            customWorkspace "/mnt/clone"
         }
     }    
 
@@ -10,7 +10,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                sh "mkdir priya" 
+                sh "mkdir priya-1" 
             }
         }
     }
